@@ -1,4 +1,4 @@
-<p align="center"><img src="https://badgen.net/npm/v/desert-operations"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/32225687/104828809-d9838a00-584b-11eb-944d-ebbef64bdfe0.png"/></p>
 <h1 align="center">Desert Operations API</h1>
 <p align="center">Esse simples wrapper para as APIs do Desert Operation ajuda você a conseguir alguns dados do jogo sem fazer um web scrap por si próprio.</p>
 
