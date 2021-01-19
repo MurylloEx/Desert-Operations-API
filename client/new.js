@@ -1,3 +1,6 @@
+const $ = require('cheerio');
+const requests = require('../lib/requests');
+
 class DesertPlayer {
 
   constructor(data, doSession) {

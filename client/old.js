@@ -1,15 +1,21 @@
+const $ = require('cheerio');
+const requests = require('../lib/requests');
+
 class DesertPlayer {
 
-  constructor(profileUrl, player) {
-    this.profileUrl = profileUrl;
-    this.player = player;
+  constructor(data, doSession) {
+    this.Player = data || {};
+    this.Session = doSession;
   }
 
-  async load() {
-    let result = { success: true, data: fs.readFileSync('C:\\users\\murilo\\desktop\\cache.html', { encoding: 'utf-8', flag: 'r' }) }
+  async load(profileUrl) {
+    let result = await requests.GET(this.Player.ProfileUrl || profileUrl, {
+      'Cookie': this.Session.UserCookies,
+      'User-Agent': this.Session.UserAgent
+    });
     if (!result.success)
       throw new Error('Failed to get user data.');
-    this.data = result.data;
+    this.Player = result.data;
     this.parser = $.load(result.data);
   }
 
