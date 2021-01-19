@@ -1,10 +1,10 @@
 {
   "name": "desert-operations",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "This simple wrapper for Desert Operations APIs help you to get some data from the game without do a web scrap by yourself.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
