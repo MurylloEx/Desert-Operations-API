@@ -262,5 +262,5 @@ class DesertPlayer {
 }
 
 module.exports = {
-  DesertPlayerNew: DesertPlayer
+  DesertPlayer: DesertPlayer
 };
