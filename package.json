@@ -1,6 +1,6 @@
 {
   "name": "desert-operations",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "This simple wrapper for Desert Operations APIs help you to get some data from the game without do a web scrap by yourself.",
   "main": "index.js",
   "scripts": {

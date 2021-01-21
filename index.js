@@ -111,4 +111,4 @@ module.exports = {
   DesertSession,
   DesertServer,
   DesertOperations
-}
+};
